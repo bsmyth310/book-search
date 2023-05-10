@@ -52,4 +52,5 @@ GraphQL docs
 
 ## Questions 
 
-Any questions? 
+Any questions?
+contact me at: smythbenb@gmail.com
