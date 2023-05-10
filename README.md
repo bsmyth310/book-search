@@ -1,55 +1,68 @@
-# [![My Skills](https://skillicons.dev/icons?i=graphql&perline=1)](https://skillicons.dev) Book Search Engine
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Description
+## Available Scripts
 
-This is a deployed book search engine that allows the user to search for new books to read and allows the user to keep a list of books to purchase. 
+In the project directory, you can run:
 
+### `yarn start`
 
-## Table of Contents 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- [Visuals](#visuals)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Tests](#tests)
-- [License](#license)
-- [Questions](#questions)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Visuals
+### `yarn test`
 
-[Click here for the Deployed Application](https://better-than-amazon.herokuapp.com/)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<img src="https://github.com/bsmyth310/book-search-better-than-amazon/blob/d563bdc1ab0725fb3d4c3b94474aae74f9cc7d97/Login22.png">
-<img src="https://github.com/bsmyth310/book-search-better-than-amazon/blob/d563bdc1ab0725fb3d4c3b94474aae74f9cc7d97/Signup22.png">
-<img src="https://github.com/bsmyth310/book-search-better-than-amazon/blob/d563bdc1ab0725fb3d4c3b94474aae74f9cc7d97/sample22.png">
+### `yarn build`
 
-## Installation
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-npm i  
-npm run build  
-npm run develop  
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Usage 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Upon loading the search engine, you will be presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button. If you click on the Search for Books menu option, there is an input field to search for books and a submit button.
-If you are not logged in and enter a search term in the input field and click the submit button, several search results will appear, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site. By clicking on the Login/Signup menu option, a modal appears on the screen with a toggle between the option to log in or sign up.
-If the toggle is set to Signup, you will see inputs for a username, an email address, and a password, and a signup button. If the toggle is set to Login, you will see two inputs for an email address and a password and login button. You may enter a valid email address and create a password and click on the signup button and a user account is created and you are logged in to the site. If you enter your account’s email address and password and click on the login button, the modal closes and you are logged in. After logging in, the menu options change to Search for Books, an option to see my saved books, and Logout. Enter a search term in the input field and click the submit button and you will be presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to your account. If you click on the Save button on a book, that book’s information is saved to your account. You can click on the option to your saved books and will see all of the books saved to your account. There is also a button to remove a book from the account. If you click on the Remove button on a book, that book is deleted from the saved books list. By clicking on the Logout button, you will be logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button.
+### `yarn eject`
 
-## Tests 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-N/A
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## License
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Boost Software License 1.0  
-Sources include:  
-Actvity 28 from Module 21  
-Stack Overflow for _typename and ...  
-GraphQL docs
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Badges
+## Learn More
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Questions 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Any questions? 
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
