@@ -16,7 +16,7 @@ This is a deployed book search engine that allows the user to search for new boo
 
 ## Visuals
 
-[Click here for the Deployed Application]
+[Click here for the Deployed Application](https://better-than-amazon.herokuapp.com/)
 
 <img src="https://github.com/bsmyth310/book-search-better-than-amazon/blob/d563bdc1ab0725fb3d4c3b94474aae74f9cc7d97/Login22.png">
 <img src="https://github.com/bsmyth310/book-search-better-than-amazon/blob/d563bdc1ab0725fb3d4c3b94474aae74f9cc7d97/Signup22.png">
