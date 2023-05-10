@@ -18,11 +18,13 @@ This is a deployed book search engine that allows the user to search for new boo
 
 [Click here for the Deployed Application]
 
+<img src=>
+<img src=>
 
 ## Installation
 
 npm i  
-npm build  
+npm run build  
 npm run develop  
 
 ## Usage 
